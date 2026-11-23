@@ -19,9 +19,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/rand"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/quortex/kubestatic/api/v1alpha1"
-	"github.com/quortex/kubestatic/internal/provider"
-	"github.com/quortex/kubestatic/internal/provider/aws/mocks"
+	"github.com/quortex-oss/kubestatic/api/v1alpha1"
+	"github.com/quortex-oss/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/internal/provider/aws/mocks"
 )
 
 var _ = Describe("AWSProvider", func() {

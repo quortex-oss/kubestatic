@@ -161,7 +161,7 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Help
 
 Got a question?
-File a GitHub [issue](https://github.com/quortex/kubestatic/issues).
+File a GitHub [issue](https://github.com/quortex-oss/kubestatic/issues).
 
 [logo]: https://storage.googleapis.com/quortex-assets/logo.webp
 

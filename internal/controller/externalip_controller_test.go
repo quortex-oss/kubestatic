@@ -29,8 +29,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/quortex/kubestatic/api/v1alpha1"
-	"github.com/quortex/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/api/v1alpha1"
+	"github.com/quortex-oss/kubestatic/internal/provider"
 )
 
 var _ = Describe("ExternalIP Controller", func() {

@@ -1,4 +1,4 @@
-module github.com/quortex/kubestatic
+module github.com/quortex-oss/kubestatic
 
 go 1.26
 

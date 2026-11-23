@@ -40,9 +40,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/quortex/kubestatic/api/v1alpha1"
-	"github.com/quortex/kubestatic/internal/provider"
-	"github.com/quortex/kubestatic/internal/provider/aws"
+	"github.com/quortex-oss/kubestatic/api/v1alpha1"
+	"github.com/quortex-oss/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/internal/provider/aws"
 	// +kubebuilder:scaffold:imports
 )
 

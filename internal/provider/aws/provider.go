@@ -23,9 +23,9 @@ import (
 	kmetav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/rand"
 
-	"github.com/quortex/kubestatic/api/v1alpha1"
-	"github.com/quortex/kubestatic/internal/provider"
-	"github.com/quortex/kubestatic/internal/provider/aws/converter"
+	"github.com/quortex-oss/kubestatic/api/v1alpha1"
+	"github.com/quortex-oss/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/internal/provider/aws/converter"
 )
 
 // TagKey represents an AWS tag key.

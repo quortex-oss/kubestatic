@@ -24,7 +24,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"github.com/quortex/kubestatic/test/utils"
+	"github.com/quortex-oss/kubestatic/test/utils"
 )
 
 const namespace = "kubestatic-new-system"
