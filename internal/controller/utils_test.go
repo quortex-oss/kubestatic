@@ -24,7 +24,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/utils/ptr"
 
-	"github.com/quortex/kubestatic/api/v1alpha1"
+	"github.com/quortex-oss/kubestatic/api/v1alpha1"
 )
 
 func Test_publicIPAddresses(t *testing.T) {

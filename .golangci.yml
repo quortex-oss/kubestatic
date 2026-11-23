@@ -74,7 +74,7 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/quortex/kubestatic
+        - github.com/quortex-oss/kubestatic
   exclusions:
     generated: lax
     paths:

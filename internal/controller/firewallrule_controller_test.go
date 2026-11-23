@@ -36,8 +36,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/utils/ptr"
 
-	"github.com/quortex/kubestatic/api/v1alpha1"
-	"github.com/quortex/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/api/v1alpha1"
+	"github.com/quortex-oss/kubestatic/internal/provider"
 )
 
 var _ = Describe("FirewallRule Controller", func() {

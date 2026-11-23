@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 
-	"github.com/quortex/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/internal/provider"
 )
 
 func TestEncodeIPPermission(t *testing.T) {

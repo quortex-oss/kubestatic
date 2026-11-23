@@ -1,7 +1,7 @@
 // Package provider contains the cloud providers related interfaces and models.
 package provider
 
-import "github.com/quortex/kubestatic/api/v1alpha1"
+import "github.com/quortex-oss/kubestatic/api/v1alpha1"
 
 // Direction describes the traffic direction.
 // Ingress applies to incoming traffic. Egress applies to outbound traffic.

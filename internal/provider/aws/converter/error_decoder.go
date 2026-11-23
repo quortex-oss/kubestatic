@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/smithy-go"
 
-	"github.com/quortex/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/internal/provider"
 )
 
 // DecodeEC2Error converts an ec2 specific Error to a QXError.

@@ -6,7 +6,7 @@ domain: kubestatic.quortex.io
 layout:
 - go.kubebuilder.io/v4
 projectName: kubestatic
-repo: github.com/quortex/kubestatic
+repo: github.com/quortex-oss/kubestatic
 resources:
 - api:
     crdVersion: v1
@@ -14,7 +14,7 @@ resources:
   controller: true
   domain: kubestatic.quortex.io
   kind: ExternalIP
-  path: github.com/quortex/kubestatic/api/v1alpha1
+  path: github.com/quortex-oss/kubestatic/api/v1alpha1
   version: v1alpha1
 - controller: true
   domain: kubestatic.quortex.io
@@ -26,7 +26,7 @@ resources:
   controller: true
   domain: kubestatic.quortex.io
   kind: FirewallRule
-  path: github.com/quortex/kubestatic/api/v1alpha1
+  path: github.com/quortex-oss/kubestatic/api/v1alpha1
   version: v1alpha1
   webhooks:
     validation: true

@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 	"k8s.io/utils/ptr"
 
-	"github.com/quortex/kubestatic/internal/provider"
+	"github.com/quortex-oss/kubestatic/internal/provider"
 )
 
 // EncodeIPPermission converts an IPPermission to an ec2 IpPermission.
